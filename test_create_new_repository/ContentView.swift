@@ -10,9 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        VStack(alignment: .leading) {
         Text("Hello, World!")
+        Spacer()
+        }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
