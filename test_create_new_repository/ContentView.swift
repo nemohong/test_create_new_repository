@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading) {
+            Text("Hello")
             Text("Hello, World!")
             Text("master")
             Spacer()
