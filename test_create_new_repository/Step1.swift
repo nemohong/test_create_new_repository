@@ -35,10 +35,9 @@ struct Step1: View {
             }
             VStack(alignment: .leading, spacing: 0) {
                 HStack(alignment: .center, spacing: 0) {
-                    Text("스낵 타이틀")
-                        .font(.system(size: 12))
+                    Text("스낵 타이틀").font(.system(size: 12))
                     Spacer()
-                    Text("0/30")
+                    Text("\(self.title.count)/30")
                         .font(.system(size: 12))
                         .foregroundColor(.gray)
                 }.padding(.bottom, 11)
@@ -50,14 +49,10 @@ struct Step1: View {
                     .cornerRadius(2)
                     .border(Color.blue, width: 1.2)
                     .padding(.bottom, 24)
-                HStack(alignment: .center, spacing: 0) {
+                HStack(spacing: 0) {
                     Spacer()
-                    VStack(alignment: .center, spacing: 0) {
-                        Spacer()
-                        Text("다음 단계로")
-                            .foregroundColor(.white)
-                        Spacer()
-                    }.frame(height: 48, alignment: .center)
+                        Text("다음 단계로").foregroundColor(.white)
+                            .frame(height: 48)
                     Spacer()
                 }.background(Color.blue)
                     .cornerRadius(2)
