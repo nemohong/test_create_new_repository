@@ -10,14 +10,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-<<<<<<< HEAD
         VStack(alignment: .leading) {
-        Text("Hello, World!")
-        Spacer()
+            Text("Hello, World!")
+            Spacer()
         }
-=======
-        Text("Hello, Brunch!")
->>>>>>> test-brunch
     }
 }
 
