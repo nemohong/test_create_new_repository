@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:SigninEmail.swift">
+   </FileRef>
+   <FileRef
       location = "group:test_create_new_repository.xcodeproj">
    </FileRef>
    <FileRef
